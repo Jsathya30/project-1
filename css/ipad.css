@@ -1,0 +1,286 @@
+
+@media(min-width:760px){
+	
+	/* Header-section */
+	
+	.head-navbar{
+		display:none;
+	}
+	.head-logo{
+	width:40%;
+	font-size:15px;
+    }
+    .head-logo span{
+	font-size:25px;
+	color:#0000FF;
+    }
+	.navbar-btn{
+		position:absolute;
+		right:0px;
+		font-size:2rem;
+		width:20%;
+	}
+	.navbar-btn-menu{
+	   border:1px solid #fff;
+	   box-shadow:0 0 2px;
+	   background-color:#fff;
+	   width:100%;
+	   padding:15px;
+	   transition:5s;
+	  
+	   display:none;
+	   
+	   position:fixed;
+	   top:8%;
+	   left:0;
+	   right:5%;
+	   z-index:10;
+	}
+	.navbar-btn:hover + .navbar-btn-menu{
+		display:block;
+	}
+	
+	/* home section */
+	.home-head h1{
+	    font-size:2rem;
+		padding-left:0px;
+	}
+	.home-head span{
+        font-size:2rem;
+	}
+	.home-head p{
+	font-size:19px;
+    }
+	button{
+	padding:15px 50px;
+	border-radius:10px;
+	background-color:#0000FF;
+	border:none;
+	color:#FFF;
+	font-weight:bold;
+	font-size:1rem;
+    }
+.btn{
+	display:flex;
+	flex-wrap:wrap;
+	padding-left:60px;
+	padding-bottom:30px;
+    }
+.video{
+	text-decoration:none;
+	font-size:2rem;
+	padding-left:20px;
+    }
+.video i{
+	color:#0000FF;
+    }
+span{
+	font-size:20px;
+	color:#000;
+	font-weight:bold;
+    }
+	
+	/* home-section2 */
+	.home-row{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	}
+	.home-col1,.home-col2,.home-col3,.home-col4{
+	  width:50%;
+	  padding:10px;
+	}
+	
+	/* about-section */
+	.about-row{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	
+    }
+	.about-col1{
+	  width:100%;
+	
+	  order:1;
+    }
+    .about-col2{
+	  width:100%;
+	
+	  order:2;
+    }
+	.about-card1 img{
+	width:80vh;
+    }
+	.about-sec-1-row1{
+	flex-wrap:wrap;
+    }
+	.about-sec-1-col1,.about-sec-1-col2,.about-sec-1-col3,.about-sec-1-col4{
+	width:50%;
+	padding:10px;
+    }
+	.about-card-icon{
+	font-size:15px;
+	color:#0000FF;
+	padding-top:20px;
+    }
+    .about-card-icon i{
+	background-color:#FFF;
+	box-shadow:1px 1px 5px #87CEEB;
+	padding:13px;
+	border-radius:50%;
+    }
+	.about-card2-title h4{
+	font-size:20px;
+    }
+	.about-card2-title p{
+	text-align:left;
+	font-size:12px;
+    }
+	.about-card2-title{
+	padding-bottom:15px;
+    }
+	.about-card-content{
+	padding-bottom:15px;
+    }
+	.about-card-content p{
+		font-size:12px;
+	}
+	.about-card2-bottom p{
+	font-size:13px;
+	}
+	.about-img{
+	 left:10%;
+	}
+	
+	/* -----client container----- */
+	
+	.client-row {
+	  flex-wrap:wrap;
+	}
+   .client-col{
+	  width:33.33%;
+	  padding:20px;
+    }
+	
+	/* --------service section------- */
+	
+	.service-col1,.service-col2, .service-col3, .service-col4, .service-col5, .service-col6{
+	width:50%;
+	padding:10px;
+    }
+    .card-top{
+	padding-left:120px;
+    }
+	
+	 /* ----------portfolio section---------- */
+	 
+	 
+    .port-col{
+	width:50%;
+	padding:20px;
+    }
+	
+	/*-------- Team section------ */
+	
+	.team-col{
+	width:50%;
+	padding:10px;
+	height:25rem;
+    }
+	
+	/*----------- pricing-section-------------*/
+
+	.price-col1, .price-col2, .price-col3, .price-col4{
+	width:50%;
+	padding:10px;
+	}
+	
+	/*---------- FAQ section--------- */
+	
+	.faq-cont{
+	padding:30px 100px;
+    }
+	
+	/*---------- contact section--------- */
+	
+	.contact-col1,.contact-col2,.contact-col3{
+	  width:100%;
+	  padding:15px;
+	}
+	
+	.contact-map-col1{
+	width:100%;
+	padding:10px;
+	
+	order:1;
+	}
+	.contact-map-col2{
+	 width:100%;
+	 padding:350px 10px 10px 10px;
+     
+     order:2;	 
+	}
+	
+	.input-sub{
+	padding:15px;
+    }
+   .input-msg{
+	padding:15px;
+    }
+    .input-sub input{
+	padding:10px 10px 30px 10px;
+	width:100%;
+	font-size:18px;
+	}
+   .input-msg input{
+	padding:10px 15px 80px 15px;
+	width:100%;
+	font-size:18px;
+    }
+   .input-col input{
+	padding:15px;
+	width:100%;
+	font-size:18px;
+    }
+	.contact-btn{
+	padding-left:200px;
+    }
+	
+	/* -----------Foot-section---------- */
+	
+    .footer-row{
+	width:100%;
+	display:flex;
+	padding-left:80px;
+    }
+	.footer-col1,.footer-col2{
+	width:50%;
+    }
+	.footer-col1 input{
+		padding:15px;
+		font-size:13px;
+	}
+	.footer-col2 input{
+		padding:15px;
+		font-size:13px;
+	}
+	
+	.footer-mid-row{
+		flex-wrap:wrap;
+	}
+	
+	.footer-mid-col1,.footer-mid-col2,.footer-mid-col3,.footer-mid-col4{
+	width:50%;
+	padding:10px;
+	font-weight:bold;
+    }
+	.footer-final-row{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	text-align:center;
+	}
+
+	
+	
+}
